@@ -1,0 +1,47 @@
+.navbar{
+    margin-top: 20px;
+}
+.navbar img {
+    width: 250px;
+    position: absolute;
+    top: 0;
+}
+.navbar-nav{
+ margin-top: 15px;
+}
+
+.navbar a{
+    color: white!important;
+    font-weight: bold;    
+}
+
+.button{
+    background-color: rgba(142, 185, 55, 0.787);
+    padding: 6px 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+.button:hover{
+        background-color: rgb(240, 177, 6);
+        padding: 6px 15px;
+        font-weight: bold;
+        color: white;
+        border-radius: 5px;
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
+.navbar-toggler{
+    background-color: rgba(142, 185, 55, 0.787);
+    border: none;
+}
+
+@media screen and (max-width: 585px){
+    .navbar img {
+        width: 100px;
+   
+    }
+}
