@@ -44,4 +44,9 @@
         width: 100px;
    
     }
+
+    .navbar a{
+        font-size: 0.8rem;   
+    }
+    
 }
